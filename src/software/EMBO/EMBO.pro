@@ -28,7 +28,7 @@ greaterThan(QT_MAJOR_VERSION, 4){
 
 include(__updater/QSimpleUpdater.pri)
 
-LINUX_LIB_DIR = ubuntu_18
+LINUX_LIB_DIR = ubuntu
 MACOS_LIB_DIR = mac_10.15
 
 win32 {

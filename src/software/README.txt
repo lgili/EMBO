@@ -7,3 +7,14 @@
                 EMBO/build-macx
                   
 3. add build step: make install
+
+On linux
+1 create a build folder 
+mkdir EMBO/build-linux && cd EMBO/build-linux
+
+2 configure with qmake
+qmake EMBO.pro
+
+3 build
+make
+
